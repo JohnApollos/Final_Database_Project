@@ -74,18 +74,17 @@ The server will start on port 3000.
 Use Postman or Thunder Client to test the following endpoints:
 Base URL: `http://localhost:3000`
 
-```
-|Entity	| Method	| Endpoint	| Description	| Example | Body (JSON) |
-|--------------------------------------------------------------------|
-| **Products**	| POST	| /api/products	| Create a new product	| {"product_name": "Wireless Keyboard", "price": 55.99, "stock_quantity": 200} |
-| **Products**	| GET	| /api/products	  | Read all products	      | (No body required) |
-| **Products**	| GET	| /api/products/1	| Read product with ID 1	| (No body required) |
-| **Products**	| PUT	| /api/products/1	| Update product's price	| {"price": 49.99}   |
-| **Products**	| DELETE	| /api/products/1	| Delete product with ID 1	| (No body required) |
-| **Customers** 	| POST	| /api/customers	| Create a new customer	| {"first_name": "Alice", "last_name": "Johnson", "email": "alice@shop.com"} |
-| **Customers**	| GET	| /api/customers	| Read all customers	| (No body required) |
-| **Customers**	` **DELETE**	| /api/customers/5\	| Delete customer with ID 5	| (No body required) |
-```
+| Entity     | Method   | Endpoint            | Description               | Example Body (JSON) |
+|------------|----------|---------------------|---------------------------|----------------------|
+| **Products** | `POST`   | `/api/products`     | Create a new product       | `{"product_name": "Wireless Keyboard", "price": 55.99, "stock_quantity": 200}` |
+| **Products** | `GET`    | `/api/products`     | Read all products          | *(No body required)* |
+| **Products** | `GET`    | `/api/products/1`   | Read product with ID 1     | *(No body required)* |
+| **Products** | `PUT`    | `/api/products/1`   | Update product's price     | `{"price": 49.99}` |
+| **Products** | `DELETE` | `/api/products/1`   | Delete product with ID 1   | *(No body required)* |
+| **Customers**| `POST`   | `/api/customers`    | Create a new customer      | `{"first_name": "Alice", "last_name": "Johnson", "email": "alice@shop.com"}` |
+| **Customers**| `GET`    | `/api/customers`    | Read all customers         | *(No body required)* |
+| **Customers**| `DELETE` | `/api/customers/5`  | Delete customer with ID 5  | *(No body required)* |
+
 
 
 ## Technologies Used
