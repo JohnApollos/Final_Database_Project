@@ -74,6 +74,7 @@ The server will start on port 3000.
 Use Postman or Thunder Client to test the following endpoints:
 Base URL: `http://localhost:3000`
 
+```
 |Entity	| Method	| Endpoint	| Description	| Example | Body (JSON) |
 |--------------------------------------------------------------------|
 | **Products**	| POST	| /api/products	| Create a new product	| {"product_name": "Wireless Keyboard", "price": 55.99, "stock_quantity": 200} |
@@ -84,6 +85,7 @@ Base URL: `http://localhost:3000`
 | **Customers** 	| POST	| /api/customers	| Create a new customer	| {"first_name": "Alice", "last_name": "Johnson", "email": "alice@shop.com"} |
 | **Customers**	| GET	| /api/customers	| Read all customers	| (No body required) |
 | **Customers**	` **DELETE**	| /api/customers/5\	| Delete customer with ID 5	| (No body required) |
+```
 
 
 ## Technologies Used
